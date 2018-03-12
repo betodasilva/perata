@@ -1,0 +1,119 @@
+/*!
+Theme Name: recantoalternativo
+Theme URI: 
+Author: Beto da Silva
+Author URI: http://betoo.com.br
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: recantoalternativo
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+recantoalternativo is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+
+@import "kube/kube", "_base";
+
+
+$clr-white: #fff;
+$clr-blue: #0097AA;
+$clr-bluedark: #241D64;
+$clr-yellow: #FFD800;
+
+
+.menu-toggle {
+    display: none;
+}
+
+.vt-space-sm {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    @include desktop{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+.vt-space {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @include desktop{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+}
+
+.vt-space-top {
+    padding-top: 60px;
+    @include desktop{
+        padding-top: 120px;
+    }
+}
+
+.vt-space-bottom {
+    padding-bottom: 60px;
+    @include desktop{
+        padding-bottom: 120px;
+    }
+}
+
+.img-shadow {
+    box-shadow: 0 6px 12px rgba(0,0,0,0.16), 0 6px 12px rgba(0,0,0,0.23);
+}
+
+.color-blue {
+    color: $clr-blue;
+}
+
+.color-yellow {
+    color: $clr-yellow;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+.m0 {
+    margin: 0;
+}
+.m-top-sm {
+    margin-top: 20px;
+}
+
+.m-top-md {
+    margin-top: 20px;
+    @include desktop {
+        margin-top: 40px;
+    }
+    
+}
+.m-bot-md {
+    margin-bottom: 40px;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 40%;
+    height: 0;
+    overflow: hidden;
+    @media (max-width: 480px) {
+        padding-bottom: 75%;
+    }
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}

@@ -1,0 +1,1 @@
+!function(){var e=document.querySelector(".depoimentos-slide");e&&($slide=$(e),$slide.slick({autoplay:!0,autoplaySpeed:6e3,adaptiveHeight:!0}))}();

@@ -1,0 +1,1 @@
+$(".quarto-gallery").slick();
